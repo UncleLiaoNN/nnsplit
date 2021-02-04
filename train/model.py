@@ -154,7 +154,7 @@ class Network(pl.LightningModule):
         store_directory = Path(directory)
         store_directory.mkdir(exist_ok=True, parents=True)
 
-        sample = torch.zeros([1, 100], dtype=torch.uint8)
+        sample = torch.zeros([1, 100], dtype=torch.int8)
         model_path = store_directory / self.ONNX_NAME
 
         torch.onnx.export(
