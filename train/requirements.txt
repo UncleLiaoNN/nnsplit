@@ -91,8 +91,8 @@ Send2Trash==1.5.0
 six==1.15.0
 smart-open==3.0.0
 SoMaJo==2.1.2
-spacy==3.0.1
-spacy-legacy==3.0.1
+spacy==2.3.5
+spacy-legacy==2.3.5
 srsly==2.4.0
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.8.0
